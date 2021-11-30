@@ -13,6 +13,7 @@ button {
     height: 30px;
 }
 
+/*Styling for website text and img text*/
 .top-area {
     background-color: #1F2937;
     font-family: 'Roboto', sans-serif;
@@ -51,6 +52,7 @@ button {
     margin: 0;
     padding: 0;
 }
+/*Seperate styling for header*/
 .nav {
     display: flex;
     justify-content: flex-end;
@@ -72,6 +74,7 @@ button {
     margin: 16px;
 }
 
+/*Css styling for random information section*/
 .middle {
     display: flex;
     justify-content: center;
@@ -103,4 +106,24 @@ button {
     align-content: center;
     max-width: 200px;
     flex-wrap: wrap;
+}
+
+/*Styling for quote section*/
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 70px;
+    margin: 50px 0 50px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote > * {
+    margin: 0;
+    padding: 0 200px 0;
 }
