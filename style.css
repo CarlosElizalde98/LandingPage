@@ -25,6 +25,7 @@ button {
     align-content: center;
     justify-content: space-around;
     font-size: 18px;
+    padding-bottom: 40px;
     margin: 0;
     color: #E5E7EB;
     gap: 0;
